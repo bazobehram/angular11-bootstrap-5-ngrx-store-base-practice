@@ -1,8 +1,8 @@
 <div class="container">
     <div class="count-container">
-        <button class="btn btn-success" id="increment" (click)="increment()">Increment</button>
+        <button class="btn btn-success" id="count-up" (click)="countUp()">Count UP</button>
         <div>Current Count: {{ count$ | async }}</div>
-        <button class="btn btn-warning" id="decrement" (click)="decrement()">Decrement</button>
+        <button class="btn btn-warning" id="countDown" (click)="countDown()">Count DOWN</button>
         <button class="btn btn-danger" id="reset" (click)="reset()">Reset Counter</button>
     </div>
 
